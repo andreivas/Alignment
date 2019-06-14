@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: string-alignment
+Implementation-Version: 1.0-SNAPSHOT
+Built-By: avasilescu
+Implementation-Vendor-Id: com.alignment
+Build-Jdk: 1.8.0_211
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/string-alignment
+Created-By: Maven Integration for Eclipse
+

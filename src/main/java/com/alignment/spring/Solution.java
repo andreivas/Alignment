@@ -2,7 +2,7 @@ package com.alignment.spring;
 
 public class Solution {
 
-    public int[] solution (String originalText, String cleanText) {
+    public int[] solutionChar (String originalText, String cleanText) {
     	int[] solutionArr = new int[originalText.length()];
     	int cursor = 0;
     	int count = 0;
@@ -20,6 +20,31 @@ public class Solution {
     	} while (count < cleanText.length());
     	
     	return solutionArr;
+    }
+    
+    public int[] solutionWord (String[] originalText, String[] cleanText) {
+    	
+    	int cursor = 0;
+    	int count = 0;
+    	
+		int[] solutionArr = new int[originalText.length];
+		
+		
+    	
+    	do {
+    		
+    		if ( originalText[cursor].equals(cleanText[count]) ) {
+    			solutionArr[cursor] = 1;
+    			cursor++;
+    			count++;
+    		} else {
+    			solutionArr[cursor] = 0;
+    			cursor++;
+    		}	
+    	} while (count < cleanText.length);
+    	
+    	return solutionArr;
+    	
     }
 	
 	
