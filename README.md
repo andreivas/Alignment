@@ -1,4 +1,10 @@
-# Project Base for Vaadin Flow and Spring Boot
+# Project Base for Vaadin Flow and Spring Boot / String Alignment Exercise
+
+In case both input TextFields have spaces, the solution will use words(solutionWord) and do the comparison based on which words have been kept. 
+Otherwise, the method solutionChar will be used, and comparison will be done on each  character. 
+
+As explained in exercise requirements, the cleaning method is not taken into consideration. Purpose is to dispkay which characters/words have been kept from the original to reach the cleaned text. Cleaning method is arbitrary.
+
 
 This project can be used as a starting point to create your own Vaadin Flow application with Spring Boot.
 It contains all the necessary configuration and some placeholder files to get you started.
